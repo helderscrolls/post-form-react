@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import FormEmployee from './FormEmployee';
+import FormMovie from './FormMovie';
 
 function App() {
   return (
-    <div>
-      <FormEmployee />
+    <div className="App">
+      <header className="App-header">
+      </header>
+      <FormMovie />
     </div>
   );
 }
